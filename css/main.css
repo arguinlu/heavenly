@@ -1,0 +1,104 @@
+.color1 {
+  background-color: #FCF5EE !important; }
+
+.color2 {
+  background-color: #FBE8E7 !important; }
+
+.color3 {
+  background-color: #F7DDDE !important; }
+
+.color4 {
+  background-color: #FFC4D0 !important; }
+
+.color5 {
+  background-color: #ff6886 !important; }
+
+.cardBorder {
+  border: 5px #ff6886 solid;
+  border-radius: 10px; }
+
+.termsBorder {
+  border: 5px #ff6886 solid;
+  border-radius: 10px; }
+
+.aboutusBorder {
+  border: 10px #ff6886 solid;
+  border-radius: 10px; }
+
+.carousel-item {
+  height: 100% !important; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto1{
+  width: 950px;
+  margin-top: 50px;
+  display: flex;
+  background-color: #ffc3cf;
+  margin-bottom: 50px;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.foto2{
+  width: 950px;
+  margin-top: 50px;
+  display: flex;
+  background-color: #ffc3cf;
+  margin-bottom: 50px;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: flex-end;
+}
+
+.texto1{
+  margin-left: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.texto2{
+  margin-right: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 320px) {
+  .foto1{
+    width: 250px;}
+    .foto2{
+      width: 250px;}
+}
+
+
+@media (min-width: 600px) {
+  .foto1{
+    width: 550px;}
+    .foto2{
+      width: 550px;}
+}
+
+@media (min-width: 1000px) {
+  .foto1{
+    width: 950px;}
+    .foto2{
+      width: 950px;}
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 0.8rem !important; } }
+
+@media (min-width: 768px) {
+  .contactForm {
+    padding: 0px !important; }
+  .contactText {
+    padding: 0px !important; } }
